@@ -1,0 +1,18 @@
+public abstract class Vehicle {
+	public abstract void start();
+	public void stop(){
+		System.out.println("Stopping Vehicle in abstract class");
+	}
+}
+class TwoWheeler extends Vehicle{
+	@Override
+	public void start() {
+		System.out.println("Starting Two Wheeler");		
+w	}	
+}
+class FourWheeler extends Vehicle{
+	@Override
+	public void start() {
+		System.out.println("Starting Four Wheeler");
+	}
+}
