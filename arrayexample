@@ -1,0 +1,51 @@
+import java.io.*;
+
+
+public class ArrayExample {
+
+	public static void main(String s[])
+	{
+		
+		BufRead buf = new BufRead();
+		buf.show();
+		
+	}
+	
+}
+
+class BufRead
+{
+	BufferedReader br;
+	
+	String name;
+	
+	BufRead()
+	{
+		
+		br = new BufferedReader(new InputStreamReader(System.in));
+		
+		
+				
+	}
+	
+	void show()
+	{
+		
+		System.out.println("Please put your name");
+		  
+		 try{
+		 name = br.readLine();
+		 }
+		 catch(Exception e )
+		 {
+			 	 }
+		 
+			System.out.println("name is"+name);
+			  
+		 
+	}
+	
+}
+
+
+  
