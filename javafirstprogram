@@ -1,0 +1,26 @@
+public class DecisionMaking {
+
+	
+	public static void main(String s[])
+
+	{
+	   int a , i , ans ;
+	   
+       Scanner input = new Scanner(System.in);       
+       System.out.println("please enter value of a number which table you want ");
+       
+       a = input.nextInt();
+       
+       
+       for ( i = 1 ; i <=10 ; i++)      {
+    	   
+    	   ans = a * i ;    	   
+    	   System.out.println(" "+a +" * "+i+" = "+ans);
+    	   
+    	   
+       }
+     
+		
+	}
+	 
+}
